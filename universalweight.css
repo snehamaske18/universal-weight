@@ -1,0 +1,57 @@
+#parent{
+    height: 800px;
+    width: 100%;
+    border: 1px solid;
+    background-image: url(./stars-1845140_1920.jpg);
+    margin-top: 50px;
+}
+#div1{
+    border: 1px solid green;
+    text-align: center;
+    height: 100px;
+    padding-top: 50px;
+}
+#inp1{
+    height: 30px;
+    width: 350px;
+    background-color: transparent;
+    color: white;
+}
+button{
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    background-image: linear-gradient(rgb(122, 210, 245), rgb(241, 136, 154));
+    margin-top: 20px;
+}
+
+#div2{
+    border: 2px solid green;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+    ;
+}
+.planet{
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid green; */
+    margin-right: 190px;
+    text-align: center;
+    color: white;
+
+}
+img{
+    margin-top: -15px;
+}
+#h1{
+    color: white;
+    text-align: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(pink, skyblue);
+    
+}
